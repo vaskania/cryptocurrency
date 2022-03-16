@@ -4,7 +4,7 @@ import { map, Observable } from 'rxjs';
 import { IMessageEvent } from './interface/IMessageEvent';
 
 @Injectable()
-export class AppService {
+export class CryptoService {
   constructor(private http: HttpService) {}
 
   url = 'https://api.coincap.io/v2/assets?limit=5';
